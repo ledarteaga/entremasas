@@ -1,0 +1,35 @@
+ .galeria {
+     display: flex;
+     flex-wrap: wrap;
+     
+
+      .img {
+          width: 50%;
+          background-image: url('../images/pan.jpg');
+          background-position: top;
+          background-size: cover;
+      }
+
+      .info {
+          background: #7A3D21;
+          width: 50%;
+
+           .info-container {
+               padding: 100px 35px;
+
+               .producto {
+                   display: inline;
+                
+
+
+                .name {
+                    @include regularFont;
+                }
+ 
+                .price {
+                    @include regularFont;
+                }
+            }
+           }
+      }
+ }
