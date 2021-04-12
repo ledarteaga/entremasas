@@ -1,0 +1,49 @@
+header {
+    background:#6E3115;
+    
+    .container {
+        padding: 3rem;
+
+        nav {
+            display: inline;
+            float: right;
+            
+    
+            a {
+                @include navFont;
+                text-decoration: none;
+                margin: 0 0.3rem;
+                
+            }
+        }
+
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 150px 0;
+
+            .blurb {
+                width: 50%;
+
+                h1 {
+                    @include heroFont;
+                }
+
+                h2 {
+                    @include heroFont2;
+                    margin-top: 15px;
+                }
+            }
+
+            .image {
+                width: 450px;
+
+               
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

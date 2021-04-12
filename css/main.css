@@ -1,7 +1,76 @@
+header {
+  background: #6E3115;
+}
+
+header .container {
+  padding: 3rem;
+}
+
+header .container nav {
+  display: inline;
+  float: right;
+}
+
+header .container nav a {
+  font-family: 'Dela Gothic One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 119.8%;
+  color: #C4C4C4;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+
+header .container .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 150px 0;
+}
+
+header .container .hero .blurb {
+  width: 50%;
+}
+
+header .container .hero .blurb h1 {
+  font-family: 'Dela Gothic One', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 78px;
+  line-height: 119.8%;
+  color: #C4C4C4;
+}
+
+header .container .hero .blurb h2 {
+  font-family: Cormorant;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 119.8%;
+  /* or 48px */
+  color: #C4C4C4;
+  margin-top: 15px;
+}
+
+header .container .hero .image {
+  width: 450px;
+}
+
+header .container .hero .image img {
+  width: 100%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=main.css.map */
