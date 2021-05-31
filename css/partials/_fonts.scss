@@ -1,0 +1,45 @@
+ @mixin heroFont {
+font-family: 'Dela Gothic One', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 78px;
+line-height: 119.8%;
+color: #C4C4C4;
+ }
+
+
+ @mixin heroFont2 {
+    font-family: Cormorant;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 119.8%;
+    /* or 48px */  
+    color: #C4C4C4;
+    
+ }
+
+ @mixin navFont {
+    font-family: 'Dela Gothic One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;  
+    line-height: 119.8%;
+    color: #C4C4C4;
+     }
+
+@mixin regularFont {
+    font-family: Cormorant;
+font-style: italic;
+font-weight: normal;
+font-size: 24px;
+line-height: 119.8%;
+/* or 36px */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #C4C4C4;
+}
+
+
+

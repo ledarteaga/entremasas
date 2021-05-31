@@ -1,18 +1,15 @@
 header {
   background: #6E3115;
 }
-
 header .container {
   padding: 3rem;
 }
-
 header .container nav {
   display: inline;
   float: right;
 }
-
 header .container nav a {
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -21,29 +18,22 @@ header .container nav a {
   text-decoration: none;
   margin: 0 0.3rem;
 }
-
 header .container .hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 150px 0;
 }
-
 header .container .hero .blurb {
   width: 50%;
 }
-
 header .container .hero .blurb h1 {
-  font-family: 'Dela Gothic One', cursive;
+  font-family: "Dela Gothic One", cursive;
   font-style: normal;
   font-weight: normal;
   font-size: 78px;
   line-height: 119.8%;
   color: #C4C4C4;
 }
-
 header .container .hero .blurb h2 {
   font-family: Cormorant;
   font-style: italic;
@@ -54,43 +44,33 @@ header .container .hero .blurb h2 {
   color: #C4C4C4;
   margin-top: 15px;
 }
-
 header .container .hero .image {
   width: 450px;
 }
-
 header .container .hero .image img {
   width: 100%;
 }
 
 .galeria {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .galeria .img {
   width: 50%;
   background-image: url("../images/pan.jpg");
   background-position: top;
   background-size: cover;
 }
-
 .galeria .info {
   background: #7A3D21;
   width: 50%;
 }
-
 .galeria .info .info-container {
   padding: 100px 35px;
 }
-
 .galeria .info .info-container .producto {
   display: inline;
 }
-
 .galeria .info .info-container .producto .name {
   font-family: Cormorant;
   font-style: italic;
@@ -98,11 +78,9 @@ header .container .hero .image img {
   font-size: 24px;
   line-height: 119.8%;
   /* or 36px */
-  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
-          font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
   color: #C4C4C4;
 }
-
 .galeria .info .info-container .producto .price {
   font-family: Cormorant;
   font-style: italic;
@@ -110,19 +88,31 @@ header .container .hero .image img {
   font-size: 24px;
   line-height: 119.8%;
   /* or 36px */
-  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
-          font-feature-settings: 'pnum' on, 'lnum' on;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #C4C4C4;
+}
+
+.contacto {
+  background: linear-gradient(180deg, #6E3115 0%, #371506 100%), #6E3115;
+}
+.contacto .container {
+  padding: 294px;
+}
+.contacto .container h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 78px;
+  line-height: 119.8%;
   color: #C4C4C4;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
   overflow-x: hidden;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

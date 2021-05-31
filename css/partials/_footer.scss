@@ -1,0 +1,12 @@
+.contacto {
+
+    background: linear-gradient(180deg, #6E3115 0%, #371506 100%), #6E3115;
+
+    .container {
+        padding: 294px;
+
+        h1 {
+            @include heroFont;
+        }
+    }
+}
